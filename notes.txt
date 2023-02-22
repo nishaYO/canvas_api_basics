@@ -1,0 +1,8 @@
+canvas has only two attributes height and width which should be specified in the html itself.
+default h and w are 150px each.
+canvas element has an method called getContext() to give it 2d or 3d context.
+one unit in the canvas grid is 1 pixel.
+the default origin(0,0) starts from the top-left most portion of the canvas, however it can be changed explicitly.
+the only shapes there are in canvas are rectangles and paths(list of points joint together).
+there are three functions to create a rectangle in canvas.
+params in arc have value in radians not degrees. [radians = (Math.PI/180)*degrees]
